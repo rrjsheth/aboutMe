@@ -32,13 +32,17 @@ header{
   border-bottom: none;
 }
 header .headerText{
-  padding-top:20%;
+  padding-top:10%;
+  padding-left: 115px;
+  padding-right: 115px;
   text-align:center;
   color: white;
   font-size: 30px;
+
 }
 header div p{
-  font-size: 10px;
+  font-size: 20px;
+  color: #e3dfd7
 }
 
 section p{
