@@ -63,10 +63,6 @@ hr{
   color: #F67280;
 }
 
-#resumeButtonPosition{
-  display: block; margin: 0 auto;
-}
-
 .resumePicture{
   background-image: url('../images/1.jpg');
   background-size: cover;
@@ -75,11 +71,13 @@ hr{
   width: 100%;
   min-height: 450px;
   color: white;
-  padding: 50px 80px;
+  padding-top: 10%;
+  
 }
 
 .resumePicture p{
-  color: #f8b195;
+  /*color: #f8b195; */
+  color: white;
   font-size: 45px;
   font-family: Courier;
   text-align: center;
@@ -105,7 +103,18 @@ hr{
 .infoCards{
   color: #777;
   background-color:white;
-  text-align:center;
   padding: 50px 115px;
-  text-align: justify;
+  text-align:center ;
+}
+
+.button-container {
+  height: 50px;
+  width: 100px;
+  background-color: gray;
+  color:white;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-container a{
 }
